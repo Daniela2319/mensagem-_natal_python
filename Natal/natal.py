@@ -44,3 +44,10 @@ if __name__ == "__main__":
 
     # Exibir a mensagem de Natal
     display_message()
+
+
+# Função para exibir mensagem de sucesso
+def display_success_message():
+    print(Fore.GREEN + Style.BRIGHT + "Mensagem de Natal exibida com sucesso!")
+    time.sleep(2)
+    print(Fore.RESET + Style.RESET_ALL)
